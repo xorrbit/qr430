@@ -1,5 +1,5 @@
 PROJECT := qr430
-SOURCES := main.c version7L.c qrencode.c
+SOURCES := main.c version7H.c qrencode.c
 MCU := msp430fr5739
 
 CC := msp430-gcc
