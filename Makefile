@@ -1,5 +1,5 @@
 PROJECT := qr430
-SOURCES := main.c version7H.c qrencode.c
+SOURCES := main.c version74.c qrencode.c
 MCU := msp430fr5739
 
 CC := msp430-gcc
@@ -24,4 +24,4 @@ clear:
 	clear
 
 .PHONY: clean clear
-
+http://www.skullspace.net/15d6503ba37bf696d4a396717e2d6f098455ce0156bef161bac57f9ced44797e
