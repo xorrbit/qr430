@@ -8,6 +8,9 @@ void LCD_gotoXY(unsigned char x, unsigned char y);
 void LCD_clear(void);
 void LCD_init(void);
 
+#define LCD_CMD		0 // Writing a CMD
+#define LCD_DATA	1 // Writing Data
+
 #define LCD_WIDTH  84 // 84 Pixels width
 #define LCD_HEIGHT 48 // 48 Pixels height
 

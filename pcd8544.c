@@ -106,9 +106,6 @@ static const char ASCII[][5] = {
 #define LCD_SDI		BIT5 // Serial Data In
 #define	LCD_SCLK	BIT6 // Serial Data Clock
 
-#define LCD_CMD		0 // Writing a CMD
-#define LCD_DATA	1 // Writing Data
-
 volatile char LCD_IsReverse = 0; // Are we writing out inversed characters?
 
 void LCD_init(void) {
