@@ -1,9 +1,9 @@
 PROJECT := qr430
-SOURCES := main.c version74.c qrencode.c
+SOURCES := main.c qrencode.c version74.c pcd8544.c
 MCU := msp430fr5739
 
 CC := msp430-gcc
-CFLAGS := -O2 -mmcu=$(MCU)
+CFLAGS := -mmcu=$(MCU)
 LDFLAGS :=
 LDLIBS :=
 
